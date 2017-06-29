@@ -179,3 +179,6 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.equinox.p2.repository 2 0 2017-06-29 09:28:30.346
 !MESSAGE Server returned lastModified <= 0 for http://raw.githubusercontent.com/cnfree/eclipse/master/decompiler/update/content.jar
+
+!ENTRY org.eclipse.debug.ui 4 120 2017-06-29 10:00:58.549
+!MESSAGE org.eclipse.debug.ui.toggleBreakpointsTargetFactory extension failed to load breakpoint toggle target because the specified id is already registered.  Specified ID is: org.chromium.debug.ui.ChromiumToggleBreakpointTargetFactory

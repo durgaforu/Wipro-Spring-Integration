@@ -1,0 +1,17 @@
+package com;
+
+import com.bill.BillingImpl;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		String[] cart = { "P001", "P002", "P003" };
+
+		BillingImpl bill = new BillingImpl();
+		double tot = bill.checkOut(cart);
+		System.out.println("Cart total is " + tot);
+
+	}
+
+}

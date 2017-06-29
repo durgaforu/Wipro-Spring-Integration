@@ -1,0 +1,21 @@
+package com.bill;
+
+import com.price.PriceMatrixImpl;
+
+public class BillingImpl {
+
+	public double checkOut(String[] cart) {
+		PriceMatrixImpl price = new PriceMatrixImpl();
+
+		double tot = 0.0;
+		for (String itemCode : cart) {
+
+			tot = tot + price.getItemPrice(itemCode);
+
+		}
+
+		return tot;
+
+	}
+
+}

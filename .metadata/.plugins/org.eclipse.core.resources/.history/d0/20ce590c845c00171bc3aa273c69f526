@@ -1,0 +1,12 @@
+package com.price;
+
+public class PriceMatrixImpl {
+
+	public double getItemPrrice(String itemCode) {
+		// code to ftch price from db
+
+		return 100.00;
+
+	}
+
+}

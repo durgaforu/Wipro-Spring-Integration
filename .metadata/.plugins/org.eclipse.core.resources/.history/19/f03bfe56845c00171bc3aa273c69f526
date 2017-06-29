@@ -1,0 +1,17 @@
+package com.bill;
+
+public class BillingImpl {
+	
+	
+	public double checkOut(String[] cart) {
+		
+		double tot=0.0;
+		for(String itemCode:cart) {
+			
+			
+			
+		}
+		
+	}
+
+}

@@ -1,0 +1,19 @@
+package com.price;
+
+
+// Dependency Class
+
+public class PriceMatrixImpl {
+	
+	public PriceMatrixImpl() {
+		System.out.println("-- PrriceMatrix Obj created");
+	}
+
+	public double getItemPrice(String itemCode) {
+		// code to fetch price from db
+
+		return 100.00;
+
+	}
+
+}
